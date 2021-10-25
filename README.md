@@ -6,8 +6,8 @@
 ## With
 
 - [TailwindCss](#TailwindCss)
-    - <a href="https://headlessui.dev/">HeadlesUi</a>)
-    - <a href="https://heroicons.com/">Heroicons</a>)
+    - <a href="https://headlessui.dev/">HeadlesUi</a>
+    - <a href="https://heroicons.com/">Heroicons</a>
     - DarkMode
 - [Redux](#Redux)
     - [@reduxjs/toolkit](@reduxjs/toolkit)
