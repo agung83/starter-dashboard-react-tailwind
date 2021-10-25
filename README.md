@@ -6,22 +6,15 @@
 ## With
 
 - [TailwindCss](#TailwindCss)
-    - [HeadlesUi](<a href="https://headlessui.dev/"></a>)
-    - [Heroicons](<a href="https://heroicons.com/"></a>)
+    - [HeadlesUi](<a href="https://headlessui.dev/">HeadlesUi</a>)
+    - [Heroicons](<a href="https://heroicons.com/">Heroicons</a>)
     - [DarkMode]
 - [Redux](#Redux)
     - [@reduxjs/toolkit](@reduxjs/toolkit)
-    - [Redux-saga](<a href="https://redux-saga.js.org/"></a>)
-- [TypeScript](<a href="https://www.typescriptlang.org/"></a>)
+    - [Redux-saga](<a href="https://redux-saga.js.org/">Redux-saga</a>)
+- [TypeScript](<a href="https://www.typescriptlang.org/">TypeScript</a>)
 
 
-## Software build[![](./docs/img/pin.svg)](#software-build)
-```shell
-# Step 1: Get sources from GitHub
-$ git clone  
-$ cd 
-```
-```shell
 
 
 # Getting Started with Create React App
