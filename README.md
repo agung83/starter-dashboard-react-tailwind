@@ -6,13 +6,13 @@
 ## With
 
 - [TailwindCss](#TailwindCss)
-    - [HeadlesUi](<a href="https://headlessui.dev/">HeadlesUi</a>)
-    - [Heroicons](<a href="https://heroicons.com/">Heroicons</a>)
-    - [DarkMode]
+    - <a href="https://headlessui.dev/">HeadlesUi</a>)
+    - <a href="https://heroicons.com/">Heroicons</a>)
+    - DarkMode
 - [Redux](#Redux)
     - [@reduxjs/toolkit](@reduxjs/toolkit)
-    - [Redux-saga](<a href="https://redux-saga.js.org/">Redux-saga</a>)
-- [TypeScript](<a href="https://www.typescriptlang.org/">TypeScript</a>)
+    - <a href="https://redux-saga.js.org/">Redux-saga</a>
+- <a href="https://www.typescriptlang.org/">TypeScript</a>
 
 
 
