@@ -4,7 +4,7 @@
 # Starter Admin Dashboard React Tailwind Css
 
 # Demo Development
-<a href="https://starter-dashboard-react.netlify.app/" targer="_blank">
+<a href="https://starter-dashboard-react.netlify.app/" target="_blank">
     Starter Admin Dashboard React Tailwind Css
 </a>
 
