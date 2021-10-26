@@ -28,7 +28,7 @@ export const Login = ({ tryLogin }: TypeStateAuth) => {
                 >
                     <div className="absolute bg-gradient-to-b from-indigo-600 to-blue-500 opacity-75 inset-0 z-0"></div>
                     <div className="w-full  max-w-md z-10">
-                        <div className="sm:text-4xl xl:text-5xl font-bold leading-tight mb-6">React Starter Admin Panel By Al
+                        <div className="sm:text-4xl xl:text-5xl font-bold leading-tight mb-6">React Starter Admin Dashboard By Al
                         </div>
                         <div className="sm:text-sm xl:text-md text-gray-200 font-normal"> What is Lorem Ipsum Lorem Ipsum is simply
                             dummy
