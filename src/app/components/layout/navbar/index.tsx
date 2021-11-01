@@ -100,9 +100,9 @@ export function Navbar({ setLightMode, setDarkMode, showSidebar, hiddenSidebar, 
                 leave="transition-opacity duration-150"
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
-                className="md:hidden lg:hidden sticky top-0 dark:bg-gray-800 bg-white"
+                className="md:hidden lg:hidden sticky top-0 dark:bg-gray-700 bg-gray-50 overflow-y-scroll h-96"
             >
-                <ul className="flex flex-col mt-3">
+                <ul className="grid grid-cols-2 gap-4 mt-3">
                     {
                         ListMenu.map((value, key) => {
                             return (
