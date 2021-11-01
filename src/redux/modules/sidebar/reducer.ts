@@ -1,7 +1,7 @@
 import { SHOWSIDEBAR, HIDDENSIDEBAR } from './initialconst'
 
 const initialState = {
-    status: 'block',
+    status: 'none',
 };
 
 type Action = any;
