@@ -46,6 +46,46 @@ const ListMenu = [
         name: "Inbox",
         icon: IconInbox
     },
+    {
+        name: "Inbox",
+        icon: IconInbox
+    },
+    {
+        name: "Inbox",
+        icon: IconInbox
+    },
+    {
+        name: "Inbox",
+        icon: IconInbox
+    },
+    {
+        name: "Inbox",
+        icon: IconInbox
+    },
+    {
+        name: "Inbox",
+        icon: IconInbox
+    },
+    {
+        name: "Inbox",
+        icon: IconInbox
+    },
+    {
+        name: "Inbox",
+        icon: IconInbox
+    },
+    {
+        name: "Inbox",
+        icon: IconInbox
+    },
+    {
+        name: "Inbox",
+        icon: IconInbox
+    },
+    {
+        name: "Inbox",
+        icon: IconInbox
+    },
 ]
 
 
