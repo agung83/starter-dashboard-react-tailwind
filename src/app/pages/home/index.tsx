@@ -8,7 +8,7 @@ export const Home = () => {
             <div className="flex">
                 <div className="container max-w-full px-5 mx-auto ">
                     <div className="grid gap-7 sm:grid-cols-2 lg:grid-cols-4">
-                        <div className="p-5 bg-white dark:bg-gray-800 rounded shadow-xl">
+                        <div className="p-5 bg-white dark:bg-gray-700 rounded shadow-xl">
                             <div className="text-base text-gray-400 dark:text-white">Total Sales</div>
                             <div className="flex items-center pt-1">
                                 <div className="text-2xl font-bold text-gray-900 dark:text-white">$9850.90</div>
@@ -20,7 +20,7 @@ export const Home = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className="p-5 bg-white dark:bg-gray-800 rounded shadow-xl">
+                        <div className="p-5 bg-white dark:bg-gray-700 rounded shadow-xl">
                             <div className="text-base text-gray-400 ">Net Revenue</div>
                             <div className="flex items-center pt-1">
                                 <div className="text-2xl font-bold text-gray-900 dark:text-white">$7520.50</div>
@@ -32,7 +32,7 @@ export const Home = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className="p-5 bg-white dark:bg-gray-800 rounded shadow-xl">
+                        <div className="p-5 bg-white dark:bg-gray-700 rounded shadow-xl">
                             <div className="text-base text-gray-400 ">Customers</div>
                             <div className="flex items-center pt-1">
                                 <div className="text-2xl font-bold text-gray-900 dark:text-white">1375</div>
@@ -44,7 +44,7 @@ export const Home = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className="p-5 bg-white dark:bg-gray-800 rounded shadow-xl">
+                        <div className="p-5 bg-white dark:bg-gray-700 rounded shadow-xl">
                             <div className="text-base text-gray-400 ">MRR</div>
                             <div className="flex items-center pt-1">
                                 <div className="text-2xl font-bold text-gray-900 dark:text-white">$250.00</div>
