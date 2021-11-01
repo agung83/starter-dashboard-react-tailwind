@@ -1,91 +1,100 @@
 
-import { IconDaftarUlang, IconDashboard, IconDataSekolah, IconInbox, IconLaporan, IconManajemen, IconPangkalanData, IconPerangkingan, IconSchedule, IconSiswa, IconVerifikasi } from 'assets/icon'
+import {
+    CogIcon,
+    HomeIcon,
+    CalendarIcon,
+    DatabaseIcon,
+    UserAddIcon,
+    CheckCircleIcon,
+    ChevronDoubleDownIcon,
+    FolderAddIcon,
+    BookOpenIcon,
+    ViewListIcon,
+    InboxInIcon
+} from '@heroicons/react/outline'
 
 const ListMenu = [
     {
         name: "Dashboard",
-        icon: IconDashboard
+        icon: HomeIcon
     },
     {
         name: "Manajamen",
-        icon: IconManajemen
+        icon: CogIcon
     },
     {
         name: "Schedule",
-        icon: IconSchedule
+        icon: CalendarIcon
     },
     {
         name: "Data Sekolah",
-        icon: IconDataSekolah
+        icon: DatabaseIcon
     },
     {
         name: "Siswa",
-        icon: IconSiswa
+        icon: UserAddIcon
     },
     {
         name: "Verifikasi",
-        icon: IconVerifikasi
+        icon: CheckCircleIcon
     },
     {
         name: "Perangkingan",
-        icon: IconPerangkingan
+        icon: ChevronDoubleDownIcon
     },
     {
         name: "Pangkalan Data",
-        icon: IconPangkalanData
+        icon: FolderAddIcon
     },
     {
         name: "Laporan",
-        icon: IconLaporan
+        icon: BookOpenIcon
     },
     {
         name: "Daftar Ulang",
-        icon: IconDaftarUlang
+        icon: ViewListIcon
     },
     {
         name: "Inbox",
-        icon: IconInbox
+        icon: InboxInIcon
     },
     {
         name: "Inbox",
-        icon: IconInbox
+        icon: InboxInIcon
     },
     {
         name: "Inbox",
-        icon: IconInbox
+        icon: InboxInIcon
     },
     {
         name: "Inbox",
-        icon: IconInbox
+        icon: InboxInIcon
     },
     {
         name: "Inbox",
-        icon: IconInbox
+        icon: InboxInIcon
     },
     {
         name: "Inbox",
-        icon: IconInbox
+        icon: InboxInIcon
     },
     {
         name: "Inbox",
-        icon: IconInbox
+        icon: InboxInIcon
     },
     {
         name: "Inbox",
-        icon: IconInbox
+        icon: InboxInIcon
     },
     {
         name: "Inbox",
-        icon: IconInbox
+        icon: InboxInIcon
     },
     {
         name: "Inbox",
-        icon: IconInbox
+        icon: InboxInIcon
     },
-    {
-        name: "Inbox",
-        icon: IconInbox
-    },
+
 ]
 
 
