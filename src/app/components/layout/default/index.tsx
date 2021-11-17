@@ -2,15 +2,19 @@ import { Fragment, useEffect } from 'react'
 import Navbar from '../navbar/lazlyload'
 import Sidebar from '../sidebar/lazyload'
 import Footer from '../footer/lazyload'
+import { Breadcrumb } from 'app/components/interface'
 
 type DefaultLayoutType = {
-    children: JSX.Element | JSX.Element[]
+    children: JSX.Element | JSX.Element[],
+    breadcrumb?: any[],
+    title?: string
+
 }
 
-export const Layout = ({ children }: DefaultLayoutType) => {
+export const Layout = ({ children, breadcrumb, title }: DefaultLayoutType) => {
     let theme = localStorage.getItem('theme');
-
     useEffect(() => {
+        document.title = `${title}`
         let html = (document.querySelector('html') as any)
         html.setAttribute('class', theme)
     }, [theme])
@@ -24,6 +28,7 @@ export const Layout = ({ children }: DefaultLayoutType) => {
                         <Sidebar />
                         <main className="bg-white-300  overflow-hidden" />
                         <div className="container py-5 px-3">
+                            {breadcrumb != undefined ? <Breadcrumb data={breadcrumb} /> : null}
                             {children}
                         </div>
                         <main />

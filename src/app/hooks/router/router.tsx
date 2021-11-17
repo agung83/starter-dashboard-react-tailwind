@@ -2,6 +2,7 @@ import { useHistory } from 'react-router-dom';
 
 const route = {
     home: '/home',
+    sekolah: '/datasekolah'
 };
 
 type PropsRouter = {

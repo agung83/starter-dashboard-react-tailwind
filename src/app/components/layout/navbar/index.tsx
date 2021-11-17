@@ -107,7 +107,7 @@ export function Navbar({ setLightMode, setDarkMode, showSidebar, hiddenSidebar, 
                         ListMenu.map((value, key) => {
                             return (
                                 <li className=" w-full h-full py-3 px-3" key={key}>
-                                    <NavLink to="/" className="flex font-sans font-hairline hover:font-normal dark:text-white text-sm text-nav-item no-underline">
+                                    <NavLink to={value.uri} className="flex font-sans font-hairline hover:font-normal dark:text-white text-sm text-nav-item no-underline">
                                         <value.icon className="flex-shrink-0 h-6 w-6 text-gray-800 dark:text-white" aria-hidden="true" />
                                         <p className="ml-1 mt-1">{value.name}</p>
                                     </NavLink>
