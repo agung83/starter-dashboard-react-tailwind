@@ -16,84 +16,60 @@ import {
 const ListMenu = [
     {
         name: "Dashboard",
-        icon: HomeIcon
+        icon: HomeIcon,
+        uri: '/home'
     },
     {
         name: "Manajamen",
-        icon: CogIcon
+        icon: CogIcon,
+        uri: '/datasekolah'
     },
     {
         name: "Schedule",
-        icon: CalendarIcon
+        icon: CalendarIcon,
+        uri: '/datasekolah'
     },
     {
         name: "Data Sekolah",
-        icon: DatabaseIcon
+        icon: DatabaseIcon,
+        uri: '/datasekolah'
     },
     {
         name: "Siswa",
-        icon: UserAddIcon
+        icon: UserAddIcon,
+        uri: '/datasekolah'
     },
     {
         name: "Verifikasi",
-        icon: CheckCircleIcon
+        icon: CheckCircleIcon,
+        uri: '/datasekolah'
     },
     {
         name: "Perangkingan",
-        icon: ChevronDoubleDownIcon
+        icon: ChevronDoubleDownIcon,
+        uri: '/datasekolah'
     },
     {
         name: "Pangkalan Data",
-        icon: FolderAddIcon
+        icon: FolderAddIcon,
+        uri: '/datasekolah'
     },
     {
         name: "Laporan",
-        icon: BookOpenIcon
+        icon: BookOpenIcon,
+        uri: '/datasekolah'
     },
     {
         name: "Daftar Ulang",
-        icon: ViewListIcon
+        icon: ViewListIcon,
+        uri: '/datasekolah'
     },
     {
         name: "Inbox",
-        icon: InboxInIcon
+        icon: InboxInIcon,
+        uri: '/datasekolah'
     },
-    {
-        name: "Inbox",
-        icon: InboxInIcon
-    },
-    {
-        name: "Inbox",
-        icon: InboxInIcon
-    },
-    {
-        name: "Inbox",
-        icon: InboxInIcon
-    },
-    {
-        name: "Inbox",
-        icon: InboxInIcon
-    },
-    {
-        name: "Inbox",
-        icon: InboxInIcon
-    },
-    {
-        name: "Inbox",
-        icon: InboxInIcon
-    },
-    {
-        name: "Inbox",
-        icon: InboxInIcon
-    },
-    {
-        name: "Inbox",
-        icon: InboxInIcon
-    },
-    {
-        name: "Inbox",
-        icon: InboxInIcon
-    },
+
 
 ]
 

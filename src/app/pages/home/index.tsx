@@ -1,7 +1,9 @@
 
+
 import { DefaultLayout } from "app/components/layout"
 
 export const Home = () => {
+
 
     return (
         <DefaultLayout>
@@ -59,6 +61,10 @@ export const Home = () => {
                     </div>
                 </div>
             </div>
+
+
+
+
 
 
 

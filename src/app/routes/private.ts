@@ -1,4 +1,4 @@
-import { Home } from "../pages";
+import { DataSekolah, Home } from "../pages";
 
 
 
@@ -8,6 +8,12 @@ const routes = [
         name: 'page-home',
         component: Home,
         path: '/home',
+    },
+    {
+        key: 'page-data-sekolah',
+        name: 'page-data-sekolah',
+        component: DataSekolah,
+        path: '/datasekolah',
     },
 
 ];

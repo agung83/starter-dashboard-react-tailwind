@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 
+
+
 /* width */
 ::-webkit-scrollbar {
     width: 3px;
@@ -24,4 +26,24 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+
+
+
+.wvu-breadcrumbs li {
+    display: inline;
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.wvu-breadcrumbs li::before {
+    content: "/";
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.wvu-breadcrumbs li:first-child::before {
+    content: "";
+    padding-right: 0;
 }
