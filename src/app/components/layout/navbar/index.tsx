@@ -1,6 +1,6 @@
 
-import { useState, useEffect } from 'react'
-import { Switch, Transition } from '@headlessui/react'
+import { useState, useEffect, Fragment } from 'react'
+import { Switch, Transition, Menu } from '@headlessui/react'
 import { NavLink } from 'react-router-dom'
 import ListMenu from '../../../../utils/listmenu'
 
@@ -78,16 +78,41 @@ export function Navbar({ setLightMode, setDarkMode, showSidebar, hiddenSidebar, 
                                 />
                             </Switch>
                         </div>
-                        <img className="inline-block h-8 w-8 rounded-full" src="https://ppdb.sumbarprov.go.id/img/pilih_jalur.598e9978.png" alt="" />
-                        <a href="#" className="dark:text-white text-gray-800 p-2 text-sm no-underline hidden md:block lg:block">Agung Laksmana</a>
-                        <div id="ProfileDropDown" className="rounded hidden shadow-md bg-white absolute pin-t mt-12 mr-1 pin-r">
-                            <ul className="list-reset">
-                                <li><a href="#" className="no-underline px-4 py-2 block text-black hover:bg-grey-light">My account</a></li>
-                                <li><a href="#" className="no-underline px-4 py-2 block text-black hover:bg-grey-light">Notifications</a></li>
-                                <li><hr className="border-t mx-2 border-grey-ligght" /></li>
-                                <li><a href="#" className="no-underline px-4 py-2 block text-black hover:bg-grey-light">Logout</a></li>
-                            </ul>
-                        </div>
+                        <Menu as="div" className="relative inline-block text-left mr-1">
+
+                            <div>
+                                <Menu.Button className="dark:text-white text-gray-800 p-2 text-sm no-underline hidden md:block lg:block">
+                                    <img className="inline-block h-8 w-8 mr-2 rounded-full" src="https://ppdb.sumbarprov.go.id/img/pilih_jalur.598e9978.png" alt="" />
+                                    Agung Laksmana
+
+                                </Menu.Button>
+                            </div>
+                            <Transition
+                                as={Fragment}
+                                enter="transition ease-out duration-100"
+                                enterFrom="transform opacity-0 scale-95"
+                                enterTo="transform opacity-100 scale-100"
+                                leave="transition ease-in duration-75"
+                                leaveFrom="transform opacity-100 scale-100"
+                                leaveTo="transform opacity-0 scale-95"
+                            >
+                                <Menu.Items className="absolute right-0 w-56 mt-2 origin-top-right dark:bg-gray-700 bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                                    <div className="px-1 py-1 ">
+                                        <Menu.Item>
+                                            {({ active }) => (
+                                                <button
+                                                    className={`${active ? 'text-gray-900 dark:text-white dark:bg-gray-600  bg-gray-100' : 'dark:text-white text-gray-900'
+                                                        } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                                                >
+
+                                                    Logout
+                                                </button>
+                                            )}
+                                        </Menu.Item>
+                                    </div>
+                                </Menu.Items>
+                            </Transition>
+                        </Menu>
                     </div>
                 </div>
 
@@ -100,8 +125,12 @@ export function Navbar({ setLightMode, setDarkMode, showSidebar, hiddenSidebar, 
                 leave="transition-opacity duration-150"
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
-                className="md:hidden lg:hidden sticky top-0 dark:bg-gray-700 bg-gray-50 overflow-y-scroll h-96"
+                className="md:hidden lg:hidden sticky top-0 z-50 dark:bg-gray-700 bg-gray-50 overflow-y-scroll h-96"
             >
+                <div className="p-3 font-medium dark:text-white">
+                    <img className="inline-block mr-3 h-8 w-8 rounded-full" src="https://ppdb.sumbarprov.go.id/img/pilih_jalur.598e9978.png" alt="" />
+                    Hi, Agung Laksmana
+                </div>
                 <ul className="grid grid-cols-2 gap-4 mt-3">
                     {
                         ListMenu.map((value, key) => {
