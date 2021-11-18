@@ -14,7 +14,7 @@ type DefaultLayoutType = {
 export const Layout = ({ children, breadcrumb, title }: DefaultLayoutType) => {
     let theme = localStorage.getItem('theme');
     useEffect(() => {
-        document.title = `${title}`
+        document.title = `${title == undefined ? `Starter Admin` : title}`
         let html = (document.querySelector('html') as any)
         html.setAttribute('class', theme)
     }, [theme])
