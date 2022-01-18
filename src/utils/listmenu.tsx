@@ -25,9 +25,9 @@ const ListMenu = [
         uri: '/datasekolah'
     },
     {
-        name: "Schedule",
+        name: "Modals",
         icon: CalendarIcon,
-        uri: '/datasekolah'
+        uri: '/modaldata'
     },
     {
         name: "Data Sekolah",

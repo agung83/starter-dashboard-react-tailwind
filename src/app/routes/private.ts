@@ -1,4 +1,4 @@
-import { DataSekolah, Home } from "../pages";
+import { DataSekolah, Home, ModalData } from "../pages";
 
 
 
@@ -15,6 +15,13 @@ const routes = [
         component: DataSekolah,
         path: '/datasekolah',
     },
+    {
+        key: 'page-modal',
+        name: 'page-modal',
+        component: ModalData,
+        path: '/modaldata'
+
+    }
 
 ];
 
